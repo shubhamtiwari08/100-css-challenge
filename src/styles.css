@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  background-image: linear-gradient(to bottom right, rgb(0, 255, 229), blue);
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.number {
+  font-size: 155px;
+  letter-spacing: 0px;
+  font-weight: bolder;
+}
+
+.one {
+  z-index: 3;
+  text-shadow: 0 0 8px #0202024f;
+  position: absolute;
+  left: 21.5%;
+  top: 1%;
+}
+
+.zero1 {
+  z-index: 2;
+  text-shadow: 0 0 8px #02020259;
+  position: absolute;
+  left: 28%;
+  top: 1%;
+}
+
+.zero2 {
+  z-index: 1;
+  position: absolute;
+  left: 48%;
+  top: 1%;
+}
+
+.days {
+  font-size: 83px;
+  font-weight: bold;
+  position: absolute;
+  top: 34%;
+}
+
+.challenge {
+  font-size: 20px;
+  letter-spacing: 4px;
+  position: absolute;
+  font-weight: bold;
+  top: 54%;
+}
+
+.sign {
+  top: 80%;
+  letter-spacing: 0px;
+  font-size: 11px;
+}
